@@ -5,7 +5,7 @@ Tools: vs code
 
 NOTE: You may visit youtube for any query related downloading g++ compiler and setting up environment. This Program is for beginners so it is not full proof to make it full proof you can use if-else statements in division column so that no one will enter 0 in denominator
 
-**Theory**
+Theory:
 The program begins with #include, allowing the program to use cin and cout for input/output. Without this #include statement, the compiler is unable to process cin or cout. Using using namespace std; allows us to refer to cin and cout directly in our code.
 
 The program begins execution in int main(). The statement std::cout << "Welcome to C++ Programming!" << std::endl; prints the welcome message. Likewise, cout << "Hello World" << std::endl; prints "Hello World".
