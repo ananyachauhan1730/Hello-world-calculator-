@@ -1,11 +1,11 @@
 # Hello-world-calculator-
 Aim: To print Hello World and design a Claculator to add,subtract,multiply and divide two user input number.
 
-Tools: vs code C
+Tools: vs code 
 
 NOTE: You may visit youtube for any query related downloading g++ compiler and setting up environment. This Program is for beginners so it is not full proof to make it full proof you can use if-else statements in division column so that no one will enter 0 in denominator
 
-Theory
+**Theory**
 The program begins with #include, allowing the program to use cin and cout for input/output. Without this #include statement, the compiler is unable to process cin or cout. Using using namespace std; allows us to refer to cin and cout directly in our code.
 
 The program begins execution in int main(). The statement std::cout << "Welcome to C++ Programming!" << std::endl; prints the welcome message. Likewise, cout << "Hello World" << std::endl; prints "Hello World".
@@ -19,13 +19,13 @@ The main purpose of iostream is to give the programmer a basic method of input/o
 
 Program Explaination: Algorithm
 
-Start the program.
-Display a welcome message:
+1.Start the program.
+2.Display a welcome message:
 Output: Welcome to C++ Programming!
 Output: Hello World
-Prompt the user to enter an integer: -Output: Enter a number: -Input: User enters an integer value and it is stored in variable x -Output: You entered: x
+3.Prompt the user to enter an integer: -Output: Enter a number: -Input: User enters an integer value and it is stored in variable x -Output: You entered: x
 
-Calculator functionality: Prompt the user to input two numbers:
+4.Calculator functionality: Prompt the user to input two numbers:
 
 Output: Enter number 1: → Input stored in variable a
 Output: Enter number 2: → Input stored in variable b
@@ -37,7 +37,7 @@ Output: Sum: sum
 Output: Subtraction: sub
 Output: Multiplication: mul
 Output: Division: div
-End the program.
+5.End the program.
 The program then prints each of the calculations in the format of "Sum:" followed by std::endl to print the result of the calculation on a new line. We conclude with return 0; which indicates successful execution of our program.
 
 Conclusion: This Program will help in understaing of basic input and output, diffrent arithmetic operation in C++ and will give short idea on how we can built programs in C++.
